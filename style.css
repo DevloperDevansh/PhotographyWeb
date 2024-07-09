@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    transition: .2s;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/*--------Header Css-----------*/
+
+.header {
+    background-color: rgba(0, 0, 255, 0.654);
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100000;
+}
+
+.header .logo img {
+    width: 12rem;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 1rem;
+}
+
+.navbar a:hover {
+    color: rgb(0, 191, 255);
+}
+
+.icon-header div {
+    color: white;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon-header div:hover {
+    color: rgb(0, 191, 255);
+}
+
+#menu-bar {
+    display: none;
+}
+
+.navbar.active {
+    top: 100%;
+}
+
+/*----------About section -----------------*/
+.background-image {
+    background: url(img/back-1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+/*------Photography about section css -----*/
+
+.welcome {
+    padding: 3rem 7%;
+}
+
+.main-welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.inner-welcome {
+    flex: 1 1 45rem;
+}
+
+.welcome-text h1 {
+    text-decoration: underline;
+    font-size: 40px;
+    color: rgb(78, 66, 245);
+
+}
+
+.welcome-text p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    margin-bottom: 25px;
+    font-family: cursive;
+}
+
+
+.welcome-text a {
+    padding: 1.5rem 4rem;
+    background: chocolate;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+.welcome-text a:hover {
+    background: rgba(0, 0, 255, 0.654);
+    color: white;
+}
+
+
+.inner-welcome img {
+    width: 90%;
+    padding-left: 20px;
+
+}
+
+
+/*------service csss---*/
+
+.choose-us {
+    background-color: aqua;
+}
+
+.choose-us h1 {
+    color: rgb(78, 66, 245);
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    padding: 2rem 1rem;
+}
+
+.choose-us h1 span {
+    color: crimson;
+}
+
+.choose-text {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    padding: 1rem 10rem;
+    margin-bottom: 25px;
+    font-family: cursive;
+}
+
+.main-choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.inner-choose {
+    flex: 1 1 200px;
+}
+
+.choose-image img {
+    width: 40rem;
+}
+
+.inner-choose h2 {
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.inner-choose p {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    font-family: cursive;
+    text-align: justify;
+    font-weight: 500;
+}
+
+
+/*------Our gallery css-----*/
+.our-gallery {
+    padding: 4rem 7%;
+}
+
+.our-gallery h1 {
+    color: rgb(0, 102, 255);
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.our-gallery h1 span {
+    color: crimson;
+}
+
+.main-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.inner-gallery {
+    flex: 1 1 300px;
+}
+
+.inner-gallery img {
+    width: 100%;
+    height: 300px;
+    transition: .5s;
+}
+
+.inner-gallery img:hover {
+    transform: translateY(-25px);
+}
+
+
+.vertical-gallery {
+    position: relative;
+}
+
+.laptop-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;/* Adjust as necessary */
+    margin: auto;
+}
+
+.laptop-image {
+    width: 100%;
+    display: block;
+}
+
+.vertical-video {
+    position: absolute;
+    top: 7.5%; /* Adjust to fit video screen within laptop */
+    left: 19.7%; /* Adjust to fit video screen within laptop */
+    width: 60.9%; /* Adjust to fit video screen within laptop */
+    height: 73%; /* Adjust to fit video screen within laptop */
+    border-radius: 5px; /* Optional: to match the screen edges */
+}
+
+
+/*----------------Our Team Css----------------*/
+.our-team{
+    padding: 4rem 7%;
+}
+
+.our-team h1{
+    color: rgb(0, 102, 255);
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.our-team h1 span{
+    color: brown;
+}
+
+.main-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.inner-team{
+    flex: 1 1 300px;
+    padding: 3rem 2rem;
+    position: relative;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inner-team:hover{
+    background-color:rgb(0, 102, 255);;
+}
+.inner-team p{
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.inner-team section{
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: 500;
+    padding: 1rem 2rem;
+}
+
+.inner-team img{
+    width: 25rem;
+    padding: 1rem 2rem;
+}
+
+/*------Contact form css-------*/
+#contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 7%;
+    background-color: aqua;
+    color: white;
+}
+
+.contact-left {
+    flex: 1;
+}
+
+.contact-left h2 {
+    color: black;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-left p {
+    color: black;
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+
+.contact-left .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.contact-right {
+    flex: 1;
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    color: var(--headerclr);
+    margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+}
+
+.contact-form input[type="submit"] {
+    background:green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background: rgb(78, 66, 245);
+}
+#msg{
+    font-size: 1rem;
+    color: rgb(10, 154, 10);
+    margin-top: -10px;
+    display: block;
+    text-align: center;
+}
+
+.success-message {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-in-out; /* Fade-in/out animation */
+}
+
+.success-message.show {
+    opacity: 1; /* Show the message */
+}
+
+.footer-bottom{
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+
+/*----For Mobile screen------*/
+@media (max-width:767px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    #menu-bar {
+        display: initial;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        width: 80%;
+        left: 10%;
+        top: -1000%;
+        background-color: rgba(0, 0, 255, 0.971);
+        border-radius: 15px;
+        transition: .5s;
+    }
+
+    .navbar.active {
+        top: 100%; /* Ensure this matches the position you want when active */
+    }
+
+    .navbar a {
+        background-color: white;
+        color:brown;
+        display: block;
+        padding: 1rem;
+        margin: 1rem;
+        border: 2px solid black;
+        font-size: 14px;
+    }
+
+
+    .inner-back-text {
+        width: 100% !important;
+    }
+
+    .inner-welcome img {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .choose-text {
+        padding: 1rem 2rem;
+    }
+
+
+
+    .vertical-video {
+        position: absolute;
+        top: 8%; /* Adjust to fit video screen within laptop */
+        left: 19.5%; /* Adjust to fit video screen within laptop */
+        width: 61%; /* Adjust to fit video screen within laptop */
+        height: 73%; /* Adjust to fit video screen within laptop */
+        border-radius: 10px; /* Optional: to match the screen edges */
+    }
+
+
+    #contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .contact-right {
+        padding: 2rem;
+    }
+
+    .footer-bottom{
+        font-size: 12px;
+    }
+    
+
+}
