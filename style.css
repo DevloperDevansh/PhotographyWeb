@@ -464,11 +464,11 @@ html {
 
     .vertical-video {
         position: absolute;
-        top: 8%; /* Adjust to fit video screen within laptop */
-        left: 19.5%; /* Adjust to fit video screen within laptop */
-        width: 61%; /* Adjust to fit video screen within laptop */
+        top: 7.5%; /* Adjust to fit video screen within laptop */
+        left: 19.7%; /* Adjust to fit video screen within laptop */
+        width: 60.9%; /* Adjust to fit video screen within laptop */
         height: 73%; /* Adjust to fit video screen within laptop */
-        border-radius: 10px; /* Optional: to match the screen edges */
+        border-radius: 5px; /* Optional: to match the screen edges */
     }
 
 
