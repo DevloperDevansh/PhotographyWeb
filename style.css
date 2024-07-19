@@ -259,6 +259,21 @@ html {
     /* Optional: to match the screen edges */
 }
 
+.vertical-videosecond {
+    position: absolute;
+    top: 16%;
+    /* Adjust to fit video screen within laptop */
+    left: 17%;
+    /* Adjust to fit video screen within laptop */
+    width: 65.9%;
+    /* Adjust to fit video screen within laptop */
+    height: 66%;
+
+    /* Adjust to fit video screen within laptop */
+    border-radius: 10px;
+    /* Optional: to match the screen edges */
+}
+
 .iphone-container {
     position: relative;
     width: 300px; /* Adjust as necessary */
@@ -511,6 +526,20 @@ html {
         /* Optional: to match the screen edges */
     }
 
+    .vertical-videosecond {
+        position: absolute;
+        top: 16%;
+        /* Adjust to fit video screen within laptop */
+        left: 17%;
+        /* Adjust to fit video screen within laptop */
+        width: 65.9%;
+        /* Adjust to fit video screen within laptop */
+        height: 66%;
+    
+        /* Adjust to fit video screen within laptop */
+        border-radius: 10px;
+        /* Optional: to match the screen edges */
+    }
 
     #contact {
         flex-direction: column;
