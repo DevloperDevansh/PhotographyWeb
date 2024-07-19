@@ -229,12 +229,14 @@ html {
 
 .vertical-gallery {
     position: relative;
+    
 }
 
 .laptop-container {
     position: relative;
     width: 100%;
-    max-width: 600px;/* Adjust as necessary */
+    max-width: 600px;
+    /* Adjust as necessary */
     margin: auto;
 }
 
@@ -245,20 +247,42 @@ html {
 
 .vertical-video {
     position: absolute;
-    top: 7.5%; /* Adjust to fit video screen within laptop */
-    left: 19.7%; /* Adjust to fit video screen within laptop */
-    width: 60.9%; /* Adjust to fit video screen within laptop */
-    height: 73%; /* Adjust to fit video screen within laptop */
+    top: 7.5%;
+    /* Adjust to fit video screen within laptop */
+    left: 19.7%;
+    /* Adjust to fit video screen within laptop */
+    width: 60.9%;
+    /* Adjust to fit video screen within laptop */
+    height: 73%;
+    /* Adjust to fit video screen within laptop */
+    border-radius: 5px;
+    /* Optional: to match the screen edges */
+}
+
+.iphone-container {
+    position: relative;
+    width: 300px; /* Adjust as necessary */
+    height: 600px; /* Adjust as necessary */
+    margin: auto;
+}
+
+
+.iphone-video {
+    position: absolute;
+    top: 10%; /* Adjust to fit video screen within iPhone */
+    left: 10%; /* Adjust to fit video screen within iPhone */
+    width: 80%; /* Adjust to fit video screen within iPhone */
+    height: 70%; /* Adjust to fit video screen within iPhone */
     border-radius: 5px; /* Optional: to match the screen edges */
 }
 
 
 /*----------------Our Team Css----------------*/
-.our-team{
+.our-team {
     padding: 4rem 7%;
 }
 
-.our-team h1{
+.our-team h1 {
     color: rgb(0, 102, 255);
     font-size: 40px;
     text-align: center;
@@ -266,11 +290,11 @@ html {
     margin-bottom: 20px;
 }
 
-.our-team h1 span{
+.our-team h1 span {
     color: brown;
 }
 
-.main-team{
+.main-team {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -278,7 +302,7 @@ html {
     gap: 10px;
 }
 
-.inner-team{
+.inner-team {
     flex: 1 1 300px;
     padding: 3rem 2rem;
     position: relative;
@@ -286,22 +310,24 @@ html {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.inner-team:hover{
-    background-color:rgb(0, 102, 255);;
+.inner-team:hover {
+    background-color: rgb(0, 102, 255);
+    ;
 }
-.inner-team p{
+
+.inner-team p {
     font-size: 1.5rem;
     font-family: cursive;
 }
 
-.inner-team section{
+.inner-team section {
     font-size: 2rem;
     font-family: cursive;
     font-weight: 500;
     padding: 1rem 2rem;
 }
 
-.inner-team img{
+.inner-team img {
     width: 25rem;
     padding: 1rem 2rem;
 }
@@ -364,7 +390,7 @@ html {
 }
 
 .contact-form input[type="submit"] {
-    background:green;
+    background: green;
     color: white;
     border: none;
     cursor: pointer;
@@ -373,7 +399,8 @@ html {
 .contact-form input[type="submit"]:hover {
     background: rgb(78, 66, 245);
 }
-#msg{
+
+#msg {
     font-size: 1rem;
     color: rgb(10, 154, 10);
     margin-top: -10px;
@@ -386,19 +413,26 @@ html {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
-    padding: 10px 20px; /* Padding */
-    border-radius: 5px; /* Rounded corners */
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.5s ease-in-out; /* Fade-in/out animation */
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    /* White text */
+    padding: 10px 20px;
+    /* Padding */
+    border-radius: 5px;
+    /* Rounded corners */
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.5s ease-in-out;
+    /* Fade-in/out animation */
 }
 
 .success-message.show {
-    opacity: 1; /* Show the message */
+    opacity: 1;
+    /* Show the message */
 }
 
-.footer-bottom{
+.footer-bottom {
     text-align: center;
     font-size: 15px;
 
@@ -433,12 +467,13 @@ html {
     }
 
     .navbar.active {
-        top: 100%; /* Ensure this matches the position you want when active */
+        top: 100%;
+        /* Ensure this matches the position you want when active */
     }
 
     .navbar a {
         background-color: white;
-        color:brown;
+        color: brown;
         display: block;
         padding: 1rem;
         margin: 1rem;
@@ -464,11 +499,16 @@ html {
 
     .vertical-video {
         position: absolute;
-        top: 7.5%; /* Adjust to fit video screen within laptop */
-        left: 19.7%; /* Adjust to fit video screen within laptop */
-        width: 60.9%; /* Adjust to fit video screen within laptop */
-        height: 73%; /* Adjust to fit video screen within laptop */
-        border-radius: 5px; /* Optional: to match the screen edges */
+        top: 7.5%;
+        /* Adjust to fit video screen within laptop */
+        left: 19.7%;
+        /* Adjust to fit video screen within laptop */
+        width: 60.9%;
+        /* Adjust to fit video screen within laptop */
+        height: 73%;
+        /* Adjust to fit video screen within laptop */
+        border-radius: 5px;
+        /* Optional: to match the screen edges */
     }
 
 
@@ -487,9 +527,9 @@ html {
         padding: 2rem;
     }
 
-    .footer-bottom{
+    .footer-bottom {
         font-size: 12px;
     }
-    
+
 
 }
